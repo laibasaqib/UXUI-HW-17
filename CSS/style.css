@@ -71,13 +71,13 @@ span.a {
         box-shadow: #D8E2FB;
         border-radius: 15px;
       }
-      .h2 { font-size: 46px;
+      .h2 { font-size: 24px;
     text-align: center;
       }
       .p2 {
         background-color: #F8DCEC;
         text-align: center;
-        font-size: xx-large;
+        font-size: 16px;
         padding: 2%;
       }
       .section2 {
@@ -149,17 +149,18 @@ padding: 0;
        .section4 {
         width: 100%;
         margin-top: 5%;
-        border: #FBDFD3;
+       
        }
     
     .grid-container {
+      grid-template-rows: 100%;
+      grid-template-columns:50% 50% 50% ;
             display: grid;
             padding: 5px;
-            grid-template-rows: auto;
             margin: auto;
             gap: 10px;
-       
-       border-color: #FBDFD3;
+            width: 90%;
+           
         }
           .grid-container > div {
             text-align: center;
@@ -167,8 +168,9 @@ padding: 0;
             align-items: center;
             padding: 20px 0;
             font-size: xx-large;
-            background-color: #FCF3EF;
-          
+            background-color:#FFF4EF;
+            border:solid black;
+            
           }
           .h4 {
             font-size: 46px;
@@ -183,12 +185,13 @@ padding: 0;
             padding: 20px 32px;
             text-align: center;
             text-decoration: none;
-            display: inline-block;
+            display: block;
             font-size: 16px;
             margin: auto;
             cursor: pointer;
             box-shadow: #D8E2FB;
             border-radius: 15px;
+            align-content:center ;
 
           }
           .h6 { font-size: 38px;
