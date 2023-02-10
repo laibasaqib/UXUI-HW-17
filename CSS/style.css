@@ -71,7 +71,7 @@ span.a {
         box-shadow: #D8E2FB;
         border-radius: 15px;
       }
-      .h2 { font-size: 24px;
+      .h2 { font-size: 30px;
     text-align: center;
       }
       .p2 {
@@ -99,6 +99,7 @@ span.a {
             width: 90%;
             margin: auto; 
             border: solid black;
+            padding: 20px;
           }
 
           .myuxskill {
@@ -108,7 +109,7 @@ span.a {
           .flex-container {
             display: flex;
             background-color:white;
-            width: 79%;
+            
           }
           .flex-container > div {
             margin: 5px;
@@ -160,6 +161,7 @@ padding: 0;
             margin: auto;
             gap: 10px;
             width: 90%;
+            background-color:#FFF4EF;
            
         }
           .grid-container > div {
@@ -168,9 +170,7 @@ padding: 0;
             align-items: center;
             padding: 20px 0;
             font-size: xx-large;
-            background-color:#FFF4EF;
-            border:solid black;
-            
+           
           }
           .h4 {
             font-size: 46px;
@@ -188,6 +188,7 @@ padding: 0;
             display: block;
             font-size: 16px;
             margin: auto;
+            margin-top: 12px;
             cursor: pointer;
             box-shadow: #D8E2FB;
             border-radius: 15px;
